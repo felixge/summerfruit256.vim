@@ -235,11 +235,12 @@ if has("gui_running") || &t_Co == 88 || &t_Co == 256
 
     " Global
     call <SID>X("Normal", "000000", "ffffff", "")
-    call <SID>X("NonText", "438ec3", "b7dce8", "")
+    call <SID>X("NonText", "c9c9c9", "ffffff", "")
+    call <SID>X("SpecialKey", "c9c9c9", "ffffff", "")
 
     " Search
-    call <SID>X("Search", "800000", "ffae00", "")
-    call <SID>X("IncSearch", "800000", "ffae00", "")
+    call <SID>X("Search", "000000", "f0e68c", "")
+    call <SID>X("IncSearch", "000000", "f0e68c", "")
 
     " Interface Elements
     call <SID>X("StatusLine", "ffffff", "43c464", "bold")
